@@ -1,0 +1,25 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: contracts-ufe-link
+spec:
+  microFrontend: polyfea-md-shell 
+  element: polyfea-md-app 
+  attributes: 
+    - name: headline
+      value: Správa zmlúv nemocnice
+    - name: short-headline
+      value: Správa zmlúv nemocnice
+    - name: supporting-text
+      value: |
+        Spravuje zmluvy nemocnice s externými partnermi
+    - name: material-icon
+      value: home_health
+    - name: href 
+      value: ./contracts
+  priority: 10
+  displayRules:
+    - anyOf:
+      - context-name: applications
+      - context-name: rail-content
+      - context-name: drawer-content

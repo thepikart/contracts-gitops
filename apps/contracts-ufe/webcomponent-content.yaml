@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: contracts-ufe-content
+spec:
+  microFrontend: contracts-ufe
+  element: contract-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?contracts(/.*)?$"
