@@ -8,3 +8,6 @@ labels:
 
 resources:
 - ../../../apps/contracts-ufe
+
+components:
+- ../../../components/version-developers
