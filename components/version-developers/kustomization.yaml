@@ -3,4 +3,4 @@ kind: Component
 images:
 - name: thepikart/contracts-ufe
   newName: thepikart/contracts-ufe # {"$imagepolicy": "wac-hospital:contracts-ufe:name"}
-  newTag: main.20260501.1709 # {"$imagepolicy": "wac-hospital:contracts-ufe:tag"}
+  newTag: main.20260502.2112 # {"$imagepolicy": "wac-hospital:contracts-ufe:tag"}
