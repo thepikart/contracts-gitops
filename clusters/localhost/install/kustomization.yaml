@@ -9,6 +9,7 @@ labels:
 resources:
 - ../../../apps/contracts-ufe
 - ../../../apps/contracts-webapi
+- ../../../apps/mongo-express
 
 patches:
 - path: patches/contracts-webapi.service.yaml
