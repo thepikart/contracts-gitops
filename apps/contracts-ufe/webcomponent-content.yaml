@@ -8,6 +8,8 @@ spec:
   attributes:
     - name: base-path
       value: /contracts/
+    - name: api-base
+      value: http://localhost:5000/api
   displayRules:
     - allOf:
       - context-name: main-content
