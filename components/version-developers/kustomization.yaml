@@ -6,4 +6,4 @@ images:
   newTag: main.20260503.2119 # {"$imagepolicy": "wac-hospital:contracts-webapi:tag"}
 - name: thepikart/contracts-ufe
   newName: thepikart/contracts-ufe # {"$imagepolicy": "wac-hospital:contracts-ufe:name"}
-  newTag: main.20260503.1305 # {"$imagepolicy": "wac-hospital:contracts-ufe:tag"}
+  newTag: main.20260503.2250 # {"$imagepolicy": "wac-hospital:contracts-ufe:tag"}
