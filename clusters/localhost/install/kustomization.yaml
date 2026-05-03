@@ -8,6 +8,11 @@ labels:
 
 resources:
 - ../../../apps/contracts-ufe
+- ../../../apps/contracts-webapi
+
+patches:
+- path: patches/contracts-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/thepikart/contracts-webapi//deployments/kustomize/components/mongodb

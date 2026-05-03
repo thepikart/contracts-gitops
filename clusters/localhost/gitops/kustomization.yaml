@@ -14,4 +14,6 @@ resources:
 - git-repository.yaml
 - contracts-ufe.image-repository.yaml
 - contracts-ufe.image-policy.yaml
+- contracts-webapi.image-repository.yaml
+- contracts-webapi.image-policy.yaml
 - image-update-automation.yaml
