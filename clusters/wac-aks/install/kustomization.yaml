@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/contracts-ufe
+- ../../../apps/contracts-webapi
 
 
 components:
