@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: contracts # napr. <pfx>-ambulance-wl
+spec:
+  title: Správa zmlúv nemocnice # napr. "Zoznam čakajúcich <pfx>"
+  description: Spravuje zmluvy nemocnice s externými partnermi # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Adriana Pikartová" # Zadajte mená autorov
+  azureLink: "https://wac-contracts.azurewebsites.net/"
+  frontendRepoUrl: "https://github.com/thepikart/contracts-ufe"
+  backendRepoUrl: "https://github.com/thepikart/contracts-webapi"
+  gitopsRepoUrl: "https://github.com/thepikart/contracts-gitops"
